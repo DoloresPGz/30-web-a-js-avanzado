@@ -1,0 +1,21 @@
+{
+  "name": "1-2-task_runners_ecm",
+  "version": "1.0.0",
+  "description": "uso de task runners y sintaxis de ecmascript (ecm)",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx nodemon index.js"
+  },
+  "keywords": [
+    "ecm",
+    "taskrunner"
+  ],
+  "author": "Dolores Parra",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.0.3",
+    "picocolors": "^1.0.0"
+  }
+}
