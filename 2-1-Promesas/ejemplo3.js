@@ -1,7 +1,7 @@
 //Concatenación de varias promesas
 
 function operacion1(numero) {
-    return new Promise((resolve, reject)=>{
+    return new Promise((resolve)=>{
         setTimeout(() => {
             console.log("Proceso 1 cumplido");
             resolve(numero)
