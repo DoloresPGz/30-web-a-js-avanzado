@@ -28,6 +28,8 @@ const buscadorPaises = (query) => {
             // cada párrafo se inserta dentro del div #contenedor-resultados
             contenedor.append(parrafoPais);
 
+            // CHALLENGE: Mostrar por cada país, su nombre y su bandera
+
         }))
 
 }
