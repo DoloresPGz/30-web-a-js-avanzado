@@ -21,3 +21,13 @@ const buscadorPaises = (query) => {
 
 // obtenerTodosLosPaises()
 buscadorPaises('arg')
+
+// Añadir evento a nuestro botón Search
+let searchButton = document.querySelector('#search-button');
+searchButton.addEventListener('click', () => {
+    // Obtener texto del input de búsqueda
+    let querySearch = document.querySelector('#query').value
+    console.log("click en search button")
+    console.log(querySearch)
+})
+
