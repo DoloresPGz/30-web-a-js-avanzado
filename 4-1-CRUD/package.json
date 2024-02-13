@@ -1,0 +1,15 @@
+{
+  "name": "4-1-crud",
+  "version": "1.0.0",
+  "description": "Práctica para crear un CRUD de al gestión de usuarios",
+  "main": "script.js",
+  "type":"module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "crud"
+  ],
+  "author": "Dolores Parra",
+  "license": "ISC"
+}
